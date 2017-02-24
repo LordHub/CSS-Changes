@@ -1,0 +1,15 @@
+You could add a span before the link with a specific class like so:
+
+<div class="btn btn_red"><span class="icon"></span><a href="#">Crimson</a><span></span></div>
+
+And then give that a specific width and a background image just like you are doing with the button itself.
+
+.btn span.icon {
+    background: url(imgs/icon.png) no-repeat;
+    float: left;
+    width: 10px;
+    height: 40px;
+}
+
+
+Add the code: <i class="fa fa-shopping-cart" aria-hidden="true"></i> in HTML
